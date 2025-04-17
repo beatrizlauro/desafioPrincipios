@@ -1,3 +1,10 @@
+# controller.py
+# Princípios aplicados:
+# - Separação de interesses: Este módulo gerencia a lógica de negócio, sem se preocupar com a interface ou armazenamento.
+# - Baixo acoplamento: Depende apenas da classe Task, sem conhecimento da interface de usuário.
+# - Alta coesão: Todas as funções estão relacionadas ao gerenciamento de tarefas.
+# - Modularidade: A lógica de negócio está isolada neste módulo.
+
 from model import Task
 
 class TaskController:

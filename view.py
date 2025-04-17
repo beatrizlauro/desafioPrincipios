@@ -1,3 +1,9 @@
+# view.py
+# Princípios aplicados:
+# - Separação de interesses: Este módulo é responsável apenas pela interface de usuário.
+# - Baixo acoplamento: Interage com o TaskController apenas por métodos públicos, sem acessar diretamente os dados.
+# - Modularidade: A interface está isolada neste módulo, podendo ser substituída por outra (ex.: GUI) sem alterar a lógica.
+
 from controller import TaskController
 
 class TaskView:

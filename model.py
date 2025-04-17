@@ -1,3 +1,9 @@
+# model.py
+# Princípios aplicados:
+# - Encapsulamento: Atributos privados com getters e setters (usando propriedades).
+# - Abstração: A classe Task representa uma tarefa de forma abstrata, escondendo detalhes de implementação.
+# - Alta coesão: A classe Task é responsável apenas por gerenciar os dados e o comportamento de uma única tarefa.
+
 class Task:
     def __init__(self, title: str, description: str):
         self._title = title
